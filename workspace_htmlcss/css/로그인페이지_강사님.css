@@ -1,0 +1,94 @@
+.container{
+  margin: 30px auto;
+  width: 800px;
+  height: 300px;
+  box-shadow: 0px 0px 4px lightgrey;
+  padding: 24px 16px;
+  border-radius: 10px;
+}
+.content{
+  display: flex;
+  align-items: center;
+  height: 220px;
+  align-items: center;
+  justify-content: space-around;
+}
+input[type="text"],
+ input[type="password"]{
+   display: block;
+   margin-top: 4px;
+   margin-bottom: 8px;
+   width: 100%;
+   padding: 4px 4px;
+   border: 1px solid lightgray;
+   border-radius: 5px;
+   outline: none;
+  }
+  input[type="text"]:focus,
+   input[type="password"]:focus{
+    border: 1px solid blue;
+   }
+  
+.login-form{
+  width: 55%;
+  background-color: #eeeeee;
+  padding: 6px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px gray;
+}
+.intro{
+  width: 40%;
+}
+label{
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.btn-div{
+  margin-top: 8px;
+}
+button{
+  color: white;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  padding: 3px 0px;
+  /* outline: none; */
+}
+button:hover{
+  color: rgb(240, 235, 235);
+  background-color: rgb(126, 25, 221);
+  cursor: pointer;
+}
+.intro >h4{
+  margin-bottom: 6px;
+}
+
+.intro li{
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+}
+.intro  a{
+  background-color: orange;
+  text-decoration: none;
+  color: white;
+  display: block;
+  border-radius: 5px;
+  padding: 3px 0px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+p{
+  color: rgb(7, 153, 7);
+  text-align: center;
+  font-size: 0.7rem;
+  margin: 6px 0px;
+}
+.intro span{
+  color: lightgreen;
+}
+input[type="checkbox"]{
+  position: relative;
+  top: 1.5px;
+}

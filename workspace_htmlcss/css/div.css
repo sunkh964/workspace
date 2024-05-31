@@ -1,0 +1,19 @@
+.d1{
+  border: 3px solid black;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  background-color: lightgrey;
+  font-weight: bold;
+  text-align: center;
+}
+
+.d1 > div{
+  border: 3px solid black;
+  margin: auto;
+  width: 400px;
+  height: 500px;
+  background-color: greenyellow;
+  font-weight: bold;
+  text-align: center;
+}

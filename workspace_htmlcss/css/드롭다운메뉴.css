@@ -1,0 +1,54 @@
+.container{
+  width: 500px;
+  margin: 50px auto ;
+}
+.menu{
+  display: flex;
+}
+.menu > li{
+  /* border: 1px solid blue; */
+  width: 150px;
+  text-align: center;
+  padding: 12px 0px;
+  background-color: black;
+
+  position: relative;
+}
+.menu > li:after{
+  content: "|";
+  color: white;
+  position: absolute;
+  right: 0px;
+}
+
+.menu > li:last-child:after{
+  content: none;
+}
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+
+.sub-menu{
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  width: 100%;
+  
+  /* display: none; 사용하는 경우 transition 속성 적용 x*/
+  /* opacity: 0; */
+  max-height: 0px;
+
+  transition: all 1s;
+}
+.sub-menu > li:hover{
+  font-weight: 500;
+}
+.sub-menu > li{
+  margin: 8px 0px;
+}
+
+.menu > li:hover .sub-menu{
+  max-height: 200px;
+}

@@ -1,0 +1,44 @@
+table{
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 710px;
+  margin: auto;
+}
+tr, td{
+  border: 1px solid black;
+}
+
+td{
+  padding: 5px;
+}
+
+.tr1{
+  background-color: lightblue;
+}
+.td1{
+  font-weight: bold;
+  text-align: center;
+}
+.sp1{
+  color: red;
+  font-size: 13px;
+  font-weight:bold;
+  font-style: italic;
+}
+.sp2{
+  color: red;
+}
+
+.in1{
+  width: 100px;
+}
+
+.in2{
+  width: 50px;
+}
+
+/*
+(테이블 대표 항목 가운데 정렬)
+  table > tbody > tr > td:first-child{
+  text-align : center
+} */

@@ -1,0 +1,26 @@
+.d1{
+  /*  */
+  margin: auto;
+  width: 300px;
+}
+
+table,tr,td{
+  border: 1px solid black;
+}
+
+table{
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: 16px;
+  width: 300px;
+}
+
+button{
+  margin-top: 10px;
+  width: 100px;
+  
+}
+
+.d2{
+  text-align: center;
+}

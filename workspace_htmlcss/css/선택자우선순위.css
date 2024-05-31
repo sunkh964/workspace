@@ -1,0 +1,19 @@
+.p1{
+  color:  red;
+  background-color: black;
+}
+
+/* 선택자 우선순위*/
+div{
+  color: black !important;
+  background-color: aquamarine;
+}
+
+.d1{
+  color: blue;
+}
+
+#d1{
+  color: red;
+}
+

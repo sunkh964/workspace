@@ -1,0 +1,61 @@
+body{
+  margin: 0;
+}
+
+.d1{
+  width: 100vw;
+  height: 60px;
+  background-color: black;
+  color: white;
+}
+.st{
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.b{
+  font-weight: 900;
+}
+input{
+  height: 40px;
+  width: 350px;
+}
+.menu1{
+  display: inline-block;
+  text-align: right;
+}
+.menu1 li{
+  font-size: 1rem;
+  display: inline-block;
+  text-align: right;
+}
+table > tbody > tr > td:first-child{
+  padding-left: 250px;
+}
+table > tbody > tr > td:last-child{
+  margin-left: 450px;
+}
+
+.d2{
+  text-align: center;
+  width: 100%;
+  height: 60px;
+}
+
+.menu2{
+  display: inline-block;
+  text-align: right;
+}
+.menu2 li{
+  display: inline-block;
+  text-align: right;
+  font-size: 1.2rem;
+  margin: 5px 10px;
+}
+.d3{
+  background-image: url(화면구현_메인배경.PNG);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100vw;
+  height:100vh;
+}

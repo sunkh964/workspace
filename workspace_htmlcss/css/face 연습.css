@@ -1,0 +1,43 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(179, 240, 240);
+}
+.container{
+  display: flex;
+  height: 70%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact{
+  background-color: beige;
+  width: 300px;
+  height:60px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+img{
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  border: 1px solid lightgray;
+}
+.container > div{
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.bold{
+  font-weight: bold;
+}
+.contact > div{
+  margin-left: 30px;
+}
+.contact:hover{
+  scale: 1.1;
+}
