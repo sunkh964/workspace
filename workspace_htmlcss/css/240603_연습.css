@@ -1,0 +1,94 @@
+.container{
+  border: 1px dotted black;
+  width: 1200px;
+  margin: auto;
+}
+
+.header{
+  width: 100%;
+  height: 100px;
+  background-color: darkblue;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.header > div:nth-child(2){
+  display: flex;
+  background-color: rgb(0, 0, 90);
+  color: white;
+  height: 50%;
+  flex-direction: row;
+  align-items: center;
+
+}
+.header div{
+  padding: 0px 30px;
+}
+
+.img{
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.img > div{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px 30px;
+  position: absolute;
+  top: 80px;
+  left: 400px;
+}
+
+.content{
+  width: 100%;
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+  margin-top: 0px;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.c2{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.c2 > div{
+  color: whitesmoke;
+  position: absolute;
+  top: 60px;
+}
+.c2 > div > div{
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100px;
+  padding: 7px  15px;
+  border-radius: 20px;
+  margin: 10px auto;
+}
+
+.footer{
+  background-color: rgb(233, 233, 233);
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.f1{
+  margin: 0px 20px;
+}
+.f2 > div{
+  border: 1px solid blue;
+}
+
+.f2 > div:first-child{
+  display: flex;
+  gap: 10px;
+}
