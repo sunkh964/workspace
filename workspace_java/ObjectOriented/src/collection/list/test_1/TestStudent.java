@@ -32,17 +32,24 @@ public class TestStudent {
         System.out.println();
         System.out.println("----3번 -----");
 
-        double avg = 0;
+        int sum = 0;
         for (int i = 0; i < list.size(); i++){
-            avg = list.get(i).getTotalScore()/2.0 ;
-            System.out.println(avg);
+            sum = sum + list.get(i).getTotalScore() ;
         }
-        int firstScore = 0;
-        int max = 0;
+        System.out.println((double)sum/list.size());
+
+        System.out.println();
+        System.out.println("----4번 -----");
+
+        int index = 0; //총점이 1등인 학생의 index
+        int max = 0;  // 가장 높은 총점
         for (int i = 0; i < list.size(); i++){
-            firstScore = list.get(i).getTotalScore();
+            if (max < list.get(i).getTotalScore()){
+                max = list.get(i).getTotalScore();
+                index = i;
             }
         }
+        System.out.println(list.get(index));
 
     }
 

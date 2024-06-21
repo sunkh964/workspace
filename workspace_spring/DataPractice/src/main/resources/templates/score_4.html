@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>학생 성적 입력 프로그램</h2>
+  [[${Info.name}]] 학생의 정보입니다. <br>
+  이름 : [[${Info.name}]]<br>
+  학년 : [[${Info.grade}]] <br>
+  연락처 : [[${Info.tel[0]}]]-[[${Info.tel[1]}]] <br>
+  성별 : [[${Info.gender}]] <br>
+  국어 : [[${Info.korean}]] <br>
+  수학 : [[${Info.math}]] <br>
+  영어 : [[${Info.english}]] <br>
+  <!-- html 에서 바로 값 구하기 -->
+  총점 : [[${Info.korean + Info.english + Info.math}]] <br> 
+  <!-- java 에서 계산하고 불러오기 -->
+  평균 : [[${avg}]]<br>
+  
+  <a href="/score1"><input type="button" value="처음으로 가기"></a>
+
+
+  
+</body>
+</html>
