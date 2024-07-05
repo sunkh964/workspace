@@ -1,0 +1,67 @@
+.container{
+  font-size: 0.8rem;
+  width: 70vw;
+  margin:auto;
+  margin-top: 20px;
+}
+table{
+  width: 100%;
+}
+
+table,tr,td{
+  border-collapse: collapse;
+  border: 1px solid gray;
+}
+
+.title_1{
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.red{
+  color: red;
+}
+.d2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.space{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.space > div:nth-child(2){
+  width: 94%;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 600;
+}
+table > tbody > tr > td:first-child{
+  padding: 10px 20px 10px 30px;
+}
+table > tbody > tr > td:nth-child(2){
+  padding: 5px 10px 5px 10px;
+}
+.head{
+  width: 15%;
+  background-color: #eeeeee;
+  font-weight: 600;
+}
+.margin{
+  margin-right: 5px;
+  width: 60px;
+}
+.gap{
+  line-height: 25px;
+}
+.sbox{
+  width : 70px
+}
+
+.ssbox{
+  width: 50px;
+}
+input{
+  border: 1px solid lightgray;
+}

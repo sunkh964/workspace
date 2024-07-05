@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .d{
+      border: 1px solid black;
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+      margin: 8px;
+      text-align: center;
+      line-height: 80px;
+      background-color: rgb(31, 170, 170);
+      color: white;
+      font-size: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <h2>노드추가하기 연습2</h2>
+
+  <input type="text" name="" id="java">
+  <input type="button" value="확인" onclick="add()">
+
+  <div id="result"></div>
+
+  <script>
+    function add(){
+      const inputTag = document.querySelector('#java');
+      // input 태그에 입력한 값
+      const num = inputTag.value;
+
+      // 태그 추가
+      let str = '';
+      for(let i = 0; i < num; i++){
+        str += `<div class="d">${i+1}</div>`;
+      }
+      // str += 'aaa';  // str = str + 'aaa'; -> str = 'aaa'
+      
+      // 추가할 위치 태그
+      const btnDiv = document.querySelector('#result');
+      
+      btnDiv.innerHTML = '';
+      btnDiv.insertAdjacentHTML('beforeend', str)
+    }
+
+
+  </script>
+</body>
+</html>
