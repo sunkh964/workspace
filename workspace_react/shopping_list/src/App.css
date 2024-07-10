@@ -1,0 +1,25 @@
+.App {
+  margin: 0px 40px;
+}
+.List{
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding-left: 20px;
+  background-color: #eeeeee;
+  padding-bottom: 20px;
+}
+.item-div{
+  margin-bottom: 5px;
+}
+button{
+  background-color: cornflowerblue;
+  padding: 3px 20px;
+  border: none;
+}
+.Add{
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #eeeeee;
+  margin-top: 20px;
+}

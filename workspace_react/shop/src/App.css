@@ -1,0 +1,39 @@
+.header{
+  background-color: black;
+  width: 100vw;
+  color: white;
+  padding: 10px;
+}
+.banner{
+  width: 100vw;
+  height: 24vh;
+}
+.banner > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.content{
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 20vh;
+  width: 70vw;
+}
+.c1{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.c1 > img{
+  border: 1px solid gray;
+}
+.c1 >h4{
+  margin: 10px;
+}
+.c1 > p{
+  margin: 0;
+}

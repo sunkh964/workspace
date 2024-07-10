@@ -1,0 +1,24 @@
+.App {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.viewer{
+  border: 1px solid gray;
+  border-radius: 20px;
+  background-color: #eeeeee;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.controller{
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: #eeeeee;
+  padding-left: 10px;
+}
+button{
+  margin: 10px 5px;
+  width: 50px;
+  background-color: lightsteelblue;
+}
+
